@@ -11,7 +11,7 @@ class SearchBar extends React.Component {
         <form onSubmit={this.onFormSubmit} className="ui form">
           <div className="field">
             <label>Image Search</label>
-            <div class="ui action input">
+            <div className="ui action input">
               <input
                 type="text"
                 placeholder="Search..."
@@ -20,8 +20,8 @@ class SearchBar extends React.Component {
                   this.setState({ input: event.target.value })
                 }
               />
-              <button class="ui button">
-                <i class="search icon"></i>
+              <button className="ui button">
+                <i className="search icon"></i>
               </button>
             </div>
           </div>
